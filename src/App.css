@@ -31,8 +31,8 @@ h1{
 
 .spinner {
   margin: 100px auto;
-  width: 50px;
-  height: 40px;
+  width: 60px;
+  height: 50px;
   text-align: center;
   font-size: 10px;
 }
@@ -42,6 +42,7 @@ h1{
   height: 100%;
   width: 6px;
   display: inline-block;
+  margin: 1px;
   
   -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
   animation: sk-stretchdelay 1.2s infinite ease-in-out;

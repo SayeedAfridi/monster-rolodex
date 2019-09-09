@@ -23,7 +23,12 @@ class App extends Component {
   }
 
   componentDidMount(){
-    this.fetchFile();
+    setTimeout(
+      function(){
+        this.fetchFile();
+      }.bind(this),
+      3000
+    );
   }
 
   handleChange = e => {
